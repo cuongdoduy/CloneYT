@@ -1,0 +1,45 @@
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 40px 8px 8px;
+    font-size: 1.4rem;
+    font-weight: 100;
+    font-family: Arial,Tahoma,sans-serif;
+    border-radius: 8px;
+    color: var(--text-color);
+    transition: background-color ease-in-out 200ms;
+    .icon,
+    .active-icon {
+        
+        width: 24px;
+        height: 28px;
+        font-size: 2.3rem;
+    }
+
+    &.active {
+        background-color: rgb(242,242,242);
+        .icon {
+            display: none;
+        }
+
+        .active-icon {
+            display: flex;
+            color:#ff0000;
+        }
+    }
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.title {
+    margin-left: 16px;
+}
+
+
+
+
+.active-icon {
+    display: none;
+}

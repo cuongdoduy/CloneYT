@@ -1,0 +1,84 @@
+
+.wrapper
+{
+    height:56px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:8px 24px 8px 12px;
+    box-sizing: border-box;
+}
+.start
+{
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    height: 100%;
+}
+.center
+{
+    display: flex;
+    align-items: center;
+    width:35vw;
+    height: 100%;
+}
+.end
+{
+    width:12vw;
+    height: 100%;
+    display: flex;
+    justify-items: flex-end ;
+    align-items:center;
+    justify-content:space-between;
+    .action_icon
+    {
+    font-size: 2.9rem;
+    height: 100%;
+    margin-right:8px;
+    }
+}
+.icon
+{
+    pointer-events: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.icon2
+{
+    margin:8px;
+}
+    
+.logo
+{
+    width: 120px;
+    padding: 18px 14px 18px 16px;
+    height: 56px;
+}
+.search
+{
+    border-radius: 999px;
+}
+.avatar
+{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background: center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.title
+{
+    text-align: left;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    background-color: rgba(84, 84, 84, 0.92);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+}
