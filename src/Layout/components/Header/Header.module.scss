@@ -7,6 +7,11 @@
     justify-content: space-between;
     padding:8px 24px 8px 12px;
     box-sizing: border-box;
+    position: fixed;
+    top:0;
+    background-color: white;
+    z-index: 99;
+    width: 100%;
 }
 .start
 {
@@ -47,6 +52,12 @@
 .icon2
 {
     margin:8px;
+    cursor: pointer;
+    &:hover
+    {
+        border-radius: 50%;
+        background-color: rgb(242,242,242);
+    }
 }
     
 .logo

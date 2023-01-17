@@ -1,16 +1,19 @@
-import React, { Fragment } from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import GlobalStyles from './Styles/GlobalStyles';
+import React, { Fragment } from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import GlobalStyles from "./Styles/GlobalStyles";
+import { ProviderStore } from "./Components/store";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Fragment>
-    <GlobalStyles>
-      <App />
-    </GlobalStyles>
+    <ProviderStore>
+      <GlobalStyles>
+        <App />
+      </GlobalStyles>
+    </ProviderStore>
   </Fragment>
 );
 

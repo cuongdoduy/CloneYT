@@ -1,9 +1,18 @@
+.container
+{
+    width: fit-content;
+}
 .wrapper
 {
     width: 16vw;
     // display: flex;
-    
-    
+    position:fixed;
+    padding-left:12px;
+    left:0;
+    top:56px;
+    background-color: white;
+    z-index: 100;
+    bottom: 0;    
     height: 100%;
     // flex-direction: column;
     nav

@@ -1,11 +1,15 @@
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
+import LibraryBooksOutlinedIcon from '@mui/icons-material/LibraryBooksOutlined';
 import RestoreIcon from '@mui/icons-material/Restore';
 import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
 import QueryBuilderIcon from '@mui/icons-material/QueryBuilder';
 import ThumbUpOutlinedIcon from '@mui/icons-material/ThumbUpOutlined';
 import HomeIcon from '@mui/icons-material/Home';
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import BoltIcon from '@mui/icons-material/Bolt';
 import PlaylistPlayOutlinedIcon from '@mui/icons-material/PlaylistPlayOutlined';
+import SubscriptionsOutlinedIcon from '@mui/icons-material/SubscriptionsOutlined';
+import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 export const Icon = ({className}) => (
     <svg viewBox="0 0 90 20" preserveAspectRatio="xMidYMid meet" focusable="false" className={className}>
     <g viewBox="0 0 90 20" preserveAspectRatio="xMidYMid meet" className="style-scope yt-icon">
@@ -29,6 +33,10 @@ export const Icon = ({className}) => (
 );
 export const BackHomeIcon=({className})=>
 (
+  <HomeOutlinedIcon className={className} fontSize="30" />
+)
+export const BackHomeIconActive=({className})=>
+(
   <HomeIcon className={className} fontSize="30" />
 )
 export const ShortIcon=({className})=>
@@ -38,11 +46,20 @@ export const ShortIcon=({className})=>
 export const SubcriptionIcon=({className})=>
 (
   
+  <SubscriptionsOutlinedIcon className={className} fontSize="30" />
+)
+export const SubcriptionIconActive=({className})=>
+(
+  
   <SubscriptionsIcon className={className} fontSize="30" />
+)
+export const LibraryIconActive=({className})=>
+(
+  <LibraryBooksIcon className={className} fontSize="30"/>
 )
 export const LibraryIcon=({className})=>
 (
-  <LibraryBooksIcon className={className} fontSize="30"/>
+  <LibraryBooksOutlinedIcon className={className} fontSize="30"/>
 )
 export const WatchedIcon=({className})=>
 (
@@ -59,4 +76,8 @@ export const WatchinFutureIcon=({className})=>
 export const LikedIcon=({className})=>
 (
   <ThumbUpOutlinedIcon className={className} fontSize="30" />
+)
+export const LikedIconActive=({className})=>
+(
+  <ThumbUpIcon className={className} fontSize="30" />
 )
