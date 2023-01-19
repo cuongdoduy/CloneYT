@@ -30,10 +30,7 @@ import { useContext } from "react";
 const cx = classNames.bind(styles);
 function Sidebar() {
   const state = useContext(ContextStore);
-
   return (
-    
-
     <div className={cx('container')}>
           {state[0].menu ? (
           <div className={cx("wrapper")}>
@@ -194,7 +191,7 @@ function Sidebar() {
         
             </Menu>
           )}
-          </div>
+    </div>
   );
 }
 

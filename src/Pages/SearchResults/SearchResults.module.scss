@@ -1,6 +1,20 @@
 .wrapper
 {
     margin-left: 16vw;
+    .filter
+    {
+       display:flex;
+       align-items: center;
+       font-family: "Roboto","Arial",sans-serif;
+       padding-bottom: 12px;
+       border-bottom: 1px solid rgb(230,230,230);
+       span{
+        margin:0 8px;
+        font-size:1.6rem;
+        font-weight: 500;
+        }
+    
+    }
 }
 .start
 {

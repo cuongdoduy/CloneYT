@@ -1,8 +1,7 @@
 export const initState={
     menu:true,
-    setSearchResult:true,
 };
- async function reducer(state,action)
+function reducer(state,action)
 {
     switch(action)
     {
@@ -11,17 +10,8 @@ export const initState={
             state.menu=!state.menu;
             return {...state};
         }
-        case "show":
-        {
-            state.setSearchResult=true;
-            return {...state};
-        }
-        case "unshow":
-        {
-            console.log(3);
-            state.setSearchResult=false;
-            return {...state};
-        }
+        default: throw new Error("Invalid");
+        
     }
  }
 export default reducer;

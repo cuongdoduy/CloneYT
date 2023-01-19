@@ -16,6 +16,7 @@ const cx = classNames.bind(styles);
 function Header() {
 
   const [state,dispatch]=useContext(ContextStore);
+
   return (
     // <buttonState.Provider value={state} >
       <div className={cx("wrapper")}>
