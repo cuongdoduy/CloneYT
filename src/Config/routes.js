@@ -1,3 +1,5 @@
+
+
 const routes={
     home: '/',
     shorts:'/short',
@@ -11,7 +13,8 @@ const routes={
     settings:'/setting',
     dairy:'/dairy',
     help:'/help',
-    report:'/report'
+    report:'/report',
+    searchresult:'/result'
 
 }
 export default routes

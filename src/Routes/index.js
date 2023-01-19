@@ -12,6 +12,7 @@ import Liked from "~/Pages/Liked";
 import Dairy from "~/Pages/Dairy";
 import Help from "~/Pages/Help";
 import Report from "~/Pages/Report";
+import SearchResult from "~/Pages/SearchResults";
 const publicRoutes=[
     {path:config.routes.home, component: Home},
     {path:config.routes.library, component: Library},
@@ -26,7 +27,8 @@ const publicRoutes=[
     {path:config.routes.settings, component: Settings},  
     {path:config.routes.dairy, component: Dairy},
     {path:config.routes.help, component:Help},  
-    {path:config.routes.report, component: Report},    
+    {path:config.routes.report, component: Report},   
+    {path:config.routes.searchresult, component: SearchResult},    
 
 ]
 const privateRoutes=[

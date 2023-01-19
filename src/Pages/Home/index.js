@@ -41,9 +41,11 @@ function Home() {
       </div>
       <div className={cx("center")}>
         <div className={cx("item")}>
+          <a  href="https://www.youtube.com/watch?v=PoXDg2saXX8">
           <div className={cx("thumnbail")}>
             <img src="https://i.ytimg.com/vi/PoXDg2saXX8/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCJa2uk9BEnLWHkRQC2zzDfDBB5OA" alt="" />
           </div>
+          </a>
           <div className={cx("description")}>
             <Avatar
               alt=""
@@ -765,7 +767,6 @@ function Home() {
             <MoreVertIcon fontSize="large" className={cx('more')}></MoreVertIcon>
           </div>
         </div>
-        
       </div>
     </div>
   );

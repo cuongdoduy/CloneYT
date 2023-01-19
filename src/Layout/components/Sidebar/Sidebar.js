@@ -30,10 +30,12 @@ import { useContext } from "react";
 const cx = classNames.bind(styles);
 function Sidebar() {
   const state = useContext(ContextStore);
+
   return (
+    
 
     <div className={cx('container')}>
-          {state[0] ? (
+          {state[0].menu ? (
           <div className={cx("wrapper")}>
             <Menu>
               <div className={cx("start")}>

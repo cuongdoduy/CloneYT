@@ -37,7 +37,7 @@ function Header() {
            <Tippy content="Thông báo" placement="bottom" className={cx('title')}  >
              <NotificationsNoneIcon className={cx('action_icon')}></NotificationsNoneIcon>
            </Tippy>
-           <img src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7183294086862405638~c5_720x720.jpeg?x-expires=1672981200&x-signature=ZpDc4CvzLQcXWhIxBLHnTWdkgLY%3D" alt="Avatar" className={cx('avatar')}></img>
+           <img src="https://lh3.googleusercontent.com/ogw/AAEL6sgiPGzfLsEc7KGEdeM3lneL0z_wi23YWZkJmEYy=s32-c-mo" alt="Avatar" className={cx('avatar')}></img>
         </div>
       </div>
     // </buttonState.Provider>

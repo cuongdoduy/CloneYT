@@ -137,6 +137,9 @@
     opacity: 1;
     overflow: hidden;
     width:28vw;
+    // position: relative;
+    z-index: 1000;
+    top:0;
     
 }
 .result
